@@ -1,0 +1,49 @@
+.bubble_container {
+  position: absolute;
+  right: 0;
+  top: calc(100vh - 831px);
+  height: 831px;
+  width: 450px;
+}
+.bubble_element {
+  border-radius: 100%;
+  background-color: #0071974f;
+  position: absolute;
+}
+#bubble_1,
+#bubble_2 {
+  width: 80px;
+  height: 80px;
+}
+#bubble_1 {
+  left: 300px !important;
+  top: 680px !important;
+}
+#bubble_2 {
+  left: 0 !important;
+  top: 650px !important;
+}
+#bubble_3 {
+  height: 60px;
+  width: 60px;
+  left: 180px !important ;
+  top: 540px !important;
+}
+
+#bubble_4,
+#bubble_5,
+#bubble_6 {
+  height: 40px;
+  width: 40px;
+}
+#bubble_4 {
+  left: 280px !important ;
+  top: 430px !important;
+}
+#bubble_5 {
+  left: 334px !important;
+  top: 78px !important;
+}
+#bubble_6 {
+  left: 113px !important;
+}

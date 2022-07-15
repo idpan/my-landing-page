@@ -1,0 +1,9 @@
+.project-bg::-webkit-scrollbar {
+  opacity: 0;
+}
+.project-bg::-webkit-scrollbar-corner {
+  opacity: 0;
+}
+.project-bg {
+  background-color: rgba(3, 3, 3, 0.1);
+}

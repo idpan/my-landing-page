@@ -1,0 +1,44 @@
+input:checked ~ label {
+  transform: rotate(-360deg);
+  transition: transform 1s;
+}
+label {
+  transition: transform 1s;
+}
+span {
+  border-radius: 1.5px;
+  display: block;
+  width: 32px;
+  height: 4px;
+  background-color: white;
+}
+span:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+span:first-child,
+span:last-child {
+  opacity: 0;
+  transition: opacity 1s;
+}
+span:first-child {
+  transform: translateY(16px) rotate(45deg);
+}
+span:last-child {
+  transform: translateY(-16px) rotate(-45deg);
+}
+input:checked ~ label span:first-child,
+input:checked ~ label span:last-child {
+  opacity: 1;
+}
+input:checked ~ label span:nth-child(2),
+input:checked ~ label span:nth-child(3),
+input:checked ~ label span:nth-child(4) {
+  transition: opacity 1s;
+  opacity: 0;
+}
+span:nth-child(2),
+span:nth-child(3),
+span:nth-child(4) {
+  transition: opacity 1s;
+}
